@@ -7,6 +7,7 @@ Dependencies:
 - tensorflow v1.0
 - pyDOE: `pip install pydoe`
 - matplotlib, numpy, scipy
+- Non-parametric Entropy Estimation Toolbox: https://github.com/gregversteeg/NPEET
 
 There are two files containing the models: `models_tf.py`, which is a single neural network and `models_para_tf.py`, which implements the randomized prior functions and trains multiple neural networks in parallel.
 
